@@ -41,7 +41,7 @@
         android:id="@+id/button4"
         android:layout_width="45dp"
         android:layout_height="72dp"
-        android:text="A"
+        android:text="B"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button3"
