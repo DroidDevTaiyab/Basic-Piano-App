@@ -17,8 +17,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.button.setOnClickListener(View.OnClickListener {
+        binding.button1.setOnClickListener(View.OnClickListener {
             Toast.makeText(this, "A Click", Toast.LENGTH_SHORT).show()
+        })
+
+        binding.button2.setOnClickListener(View.OnClickListener {
+            Toast.makeText(this, "B Click", Toast.LENGTH_SHORT).show()
         })
     }
 }
