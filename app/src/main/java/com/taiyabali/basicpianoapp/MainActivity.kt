@@ -8,6 +8,11 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.taiyabali.basicpianoapp.databinding.ActivityMainBinding
 
+/**
+ * Created by Techpass Master on 28-March-21.
+ * Website - https://techpassmaster.com/
+ * Email id - hello@techpassmaster.com
+ */
 
 class MainActivity : AppCompatActivity() {
 
