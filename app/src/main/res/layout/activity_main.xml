@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
         android:gravity="center_horizontal"
         android:text="@string/title"
+        android:textColor="@android:color/black"
         android:textSize="42sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button8"
@@ -133,40 +133,9 @@
         android:layout_width="45dp"
         android:layout_height="72dp"
         android:text="L"
-        app:layout_constraintEnd_toStartOf="@+id/button13"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button11"
-        app:layout_constraintTop_toTopOf="@+id/button13" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="45dp"
-        android:layout_height="72dp"
-        android:text="M"
-        app:layout_constraintEnd_toStartOf="@+id/button14"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button12"
-        app:layout_constraintTop_toTopOf="@+id/button14" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="45dp"
-        android:layout_height="72dp"
-        android:text="N"
-        app:layout_constraintEnd_toStartOf="@+id/button15"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toTopOf="@+id/button15" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="45dp"
-        android:layout_height="72dp"
-        android:text="O"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintStart_toEndOf="@+id/button11"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
